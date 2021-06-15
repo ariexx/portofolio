@@ -112,3 +112,8 @@ body {
     margin-top: 80px;
   }
 }
+
+.bg-about {
+  background-color: transparent;
+  margin-bottom: 30px;
+}
