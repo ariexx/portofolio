@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.linkedin {
+  background-color: blue;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+.btn-clr {
+  padding-left: 0px !important;
+}
+
+.github {
+  background-color: #333;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+.instagram {
+  padding: 8px 10px;
+  color: white;
+  border-radius: 4px;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.instagram:hover {
+  background: #ffffff;
+  background: -moz-linear-gradient(45deg, #ffffff 0%, #ffffff 25%, #fff 50%, #fff 75%, #fff 100%);
+  background: -webkit-linear-gradient(45deg, #ffffff 0%, #ffffff 25%, #fff 50%, #fff 75%, #fff 100%);
+  background: linear-gradient(45deg, #ffffff 0%, #ffffff 25%, #fff 50%, #fff 75%, #fff 100%);
+  color: black;
+}
+
+.bg-projects {
+  background-color: rgb(240, 240, 240);
+}
+
+@media (min-width: 992px) {
+  .nft-art-to-the-moon {
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    height: 120px;
+    top: 30%;
+    left: 10%;
+    margin: -10px 0 0 -20px;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+  }
+}
+
+@media (max-width: 991px) {
+  .nft-art-to-the-moon {
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    height: 120px;
+    top: 10%;
+    left: 10%;
+    margin: -10px 0 0 -20px;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+  }
+
+  .bg-projects {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  .nft-art-to-the-moon {
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    height: 120px;
+    top: 10%;
+    left: 1%;
+    margin: -10px 0 0 -20px;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+  }
+
+  .hidden-custom img {
+    display: none;
+  }
+
+  .bg-projects {
+    margin-top: 80px;
+  }
+}
